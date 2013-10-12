@@ -74,7 +74,7 @@ void main() {
     }
     if(sign_stuff())
       break;
-    DrawMessagePasswordField("WRONG  PASSWORD");
+    DrawMessagePasswordField("WRONG PASSWORD");
     password_len = 0;
   }
   
