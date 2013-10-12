@@ -35,7 +35,7 @@ const struct {
       0x00,                   // bDeviceClass
       0x00,                   // bDeviceSubClass
       0x00,                   // bDeviceProtocol
-      8,                      // bMaxPacketSize0
+      0x40,                   // bMaxPacketSize0
       USB_VENDOR_ID,          // idVendor
       USB_PRODUCT_ID,         // idProduct
       0x0001,                 // bcdDevice
